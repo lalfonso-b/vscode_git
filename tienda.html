@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de pulpos</title>
+    <style>
+        *{
+           padding: 0;
+           margin: 0;
+           background-color: rgb(232, 254, 247);
+        }
+        .contenedor{
+            width: 1200px;
+            margin: auto;
+            
+        }
+        h1{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 30px;
+            background-image: url(imgs/mar.jpg);
+            color: aliceblue;
+            text-shadow: 2px 2px blue;
+            border: 2px solid rgba(0, 0, 255, 0.497);
+        }
+        nav{
+            background-color: rgb(0, 0, 255);
+            padding: 12px 0px;
+        }
+        select{
+            text-decoration: none;
+            padding: 10px;
+            width: 160px;
+            background-color: rgb(0, 0, 255);
+            color: aliceblue;
+            border: none;
+        }
+        option{
+            background-color: rgb(0, 225, 255);
+        }
+
+        select:hover{
+            font-size: large;
+        }
+
+        h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 30px;
+            text-align: center;
+            color: blue;
+            text-shadow: 2px 2px rgb(12, 187, 250);
+        }
+       p.parrafo1{
+        width: 40%;
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        background-image: url(imgs/mar.jpg);
+        color: aliceblue;
+        padding: 20px;
+        border-radius: 2rem;
+        margin: auto;
+        text-shadow: 1px 1px blue;
+        
+       }
+       img{
+        border-radius: 2rem;
+        margin: auto;
+        height: 330px;
+       }
+
+       .flex{
+        display: flex;
+        margin: auto;
+       }
+       
+       p.parrafo2{
+        margin: 40px;
+        padding: 10px;
+        text-align: center;
+        font-size: large;
+        border-radius: 2rem;
+        background-image: url(imgs/mar.jpg);
+        color: aliceblue;
+        text-shadow: 1px 1px blue;
+       }
+       
+       
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Adopta un Pulpo</h1>
+        <nav> 
+            <select name="tipo" id="tipo">
+                <option  value="" disabled selected hidden>Tipos de pulpo</option>
+                <option value="pigmeo_del_pacifico">Pulpo pigmeo del Pacífico</option>
+                <option value="anillos_azules">Pulpo de anillos azules</option>
+                <option value="siete_brazos">Pulpo de siete brazos</option>
+                <option value="dos_manchas">Pulpo de dos manchas</option>
+            </select>
+
+            <select name="accesorios" id="accesorios">
+                <option value="" disabled selected hidden  >Accesorios</option>
+                <option value="juguetes">Juguetes</option>
+                <option value="alimentos">Alimentos</option>
+                <option value="otros">Otros</option>
+            </select>
+
+            <select name="informacion" id="informacion">
+                <option value="" disabled selected hidden >Información</option>
+                <option value="acerca_de_nosotros">Acerca de nosotros</option>
+                <option value="contacto">Contacto</option>
+                <option value="trabaja">Trabaja con nosotros</option>
+            </select>
+        </nav>
+        <h2>Bienvenido a la Tienda de Pulpos: Tu Compañero del Mar</h2>
+        <div class="flex">
+        <p class="parrafo1">¿Alguna vez has deseado tener una mascota única y fascinante que traiga el encanto del océano a tu hogar? En la Tienda de Pulpos, te ofrecemos la oportunidad de hacer realidad ese sueño adoptando uno de nuestros adorables pulpos.
+
+            Sumérgete en un mundo de maravillas acuáticas y descubre la magia de tener un pulpo como compañero. Con sus inteligentes ojos y tentáculos juguetones, estos fascinantes animales prometen cautivar tu corazón y llenar tu vida de alegría y asombro.
+            
+            En nuestra tienda, encontrarás una amplia variedad de especies de pulpos, cada una con su propia personalidad única y encanto especial. Desde el dulce Pulpo Pigmeo del Pacífico hasta el intrigante Pulpo de Anillos Azules, hay un compañero perfecto esperándote aquí.  </p>
+            
+            <img class="pulpo_comun" src="imgs/pulpo-comun.jpg" alt="pulpo_comun">
+        </div>
+
+
+        <p class="parrafo2">Además de ofrecerte la oportunidad de adoptar un pulpo, también proporcionamos una selección de accesorios y suministros para garantizar el cuidado y la felicidad óptimos de tu nueva mascota. Desde juguetes interactivos hasta alimentos de calidad premium, tenemos todo lo que necesitas para brindarle a tu pulpo un hogar feliz y saludable.
+                
+            En la Tienda de Pulpos, nuestro objetivo es compartir el amor por estos increíbles animales marinos y ayudarte a crear un vínculo especial con tu nuevo amigo del mar. Únete a nosotros en esta emocionante aventura y descubre la maravilla de tener un pulpo como parte de tu vida.
+            
+            ¡Ven y adopta a tu pulpo hoy mismo!</p>
+        
+           
+    </div>
+
+    <script>
+
+       
+
+    </script>
+</body>
+</html>
